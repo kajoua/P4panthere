@@ -163,7 +163,7 @@ input[type=submit] {
 
 button[disabled],
 html input[disabled] {
-    cursor: default
+    cursor: pointer
 }
 
 button::-moz-focus-inner,
@@ -3713,7 +3713,7 @@ textarea.input-lg {
 .btn.disabled,
 .btn[disabled],
 fieldset[disabled] .btn {
-    cursor: not-allowed;
+    cursor: pointer;
     filter: alpha(opacity=65);
     -webkit-box-shadow: none;
     box-shadow: none;
