@@ -42,6 +42,8 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .bloc-lg {
@@ -508,6 +510,27 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    width: 300px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.form-control input {
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.form-control-input {
+    height: 30px;
+}
+
+.form-group {
+    padding: 15px 0;
 }
 
 .scrollToTop {
@@ -652,6 +675,10 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+
+label {
+    font-weight: bold;
 }
 
 .container {
