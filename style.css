@@ -338,6 +338,7 @@ a:hover {
 .nav>li a:hover,
 .nav>li a:focus {
     background: transparent;
+    font-weight: 600;
 }
 
 .navbar-toggle {
@@ -785,11 +786,6 @@ h4 {
     padding: 40px 40px 40px 40px;
 }
 
-.bold-link {
-    font-weight: 900;
-    text-decoration: underline!important;
-}
-
 .bgc-white {
     background-color: #FFFFFF;
 }
@@ -814,14 +810,7 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: #7E707E!important;
     color: #FFFFFF!important;
-}
-
-.ltc-white {
-    color: #FFFFFF!important;
-}
-
-.ltc-white:hover {
-    color: #cccccc!important;
+    transform: translate(1px, 1px) scale(0.98);
 }
 
 .ltc-atomic-tangerine {
